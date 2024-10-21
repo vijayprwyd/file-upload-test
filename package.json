@@ -1,0 +1,29 @@
+{
+  "name": "file-upload-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx src/index.ts",
+    "upload": "tsx src/test-upload.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "form-data": "^4.0.1",
+    "formidable": "^3.5.1",
+    "tsx": "^4.19.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/formidable": "^3.4.5",
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
